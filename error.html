@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>James Hudson IV</title>
+    <meta name="description" content="The Website of James Hudson IV">
+    <meta charset="utf-8">
+    <meta property="og:image" content="png.png">
+    <link rel="icon" href="png.png">
+    <link rel="stylesheet" type="text/css" href="jameshudson.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jameshudson.js"></script>
+    <style>
+        body {
+            background-color: #ffffff;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>James Hudson IV</h1>
+        <a class="hmbgr" onclick="toggleNavBar()"><i class="fa fa-bars"></i></a>    
+    </header>
+    <nav id="navbar">
+        <ul>
+           <li><a href="https://jlh1138.github.io/Website/" class="menu-chosen" title="Go to Home page">Home</a></li> 
+           <li><a href="placeholder.html" title="placeholder">placeholder</a></li>
+           <li><a href="placeholder.html" title="placeholder">placeholder</a></li>
+           <li><a href="placeholder.html" title="placeholder">placeholder</a></li>
+            <li><a href="placeholder.html" title="placeholder">placeholder</a></li>
+        </ul>
+    </nav>
+    
+    <!--<div id="homehero"></div>-->
+    
+    <div id="main">
+        <div class="fof">
+            <h1>Error 404</h1>
+    	</div>
+    </div>
+    <button onclick="enableAutoplay()" type="button">Return to main site</button>
+    <hr>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <video id="myVideo" autoplay="autoplay" poster="white.png" loop="loop" playsinline="playsinline" preload="metadata" data-aos="fade-up" style="width:100%;">
+    <source src="video_25mb.mp4"
+            type="video/mp4">
+        Your browser does not support MP4 Format videos or HTML5 Video.
+    </video>
+
+    <script>
+        var x = document.getElementById("myVideo");
+        function enableAutoplay() { 
+            x.autoplay = true;
+            x.load();
+            } 
+    </script> 
+
+</body> 
+</html>
